@@ -1,0 +1,26 @@
+.ground_container {
+    padding             : 30px;
+
+    display             : grid;
+    grid-template-areas : "group boss" "group member";
+    gap                 : 25px;
+}
+
+.section {
+    border-radius : 8px;
+    border        : 1px solid black;
+    min-height    : 100px;
+    padding       : 20px;
+}
+
+.section--group {
+    grid-area : group;
+}
+
+.section--boss {
+    grid-area : boss;
+}
+
+.section-member {
+    grid-area : member;
+}
